@@ -13,27 +13,16 @@ This repository contains my personal portfolio website, designed to showcase my 
 - **Version Control:** Git & GitHub
 - **Deployment:** Vercel (with custom SPA rewrite rules)
 
-## Modular Architecture (`src/components/`)
-
-- **Navbar.jsx:** Header navigation links and external profiles.
-- **Hero.jsx:** Introduction, professional statement, and action triggers.
-- **About.jsx:** Background overview (UNINOVE & computer science studies).
-- **Experience.jsx:** Professional history detailing financial and administrative background.
-- **Skills.jsx:** Grid showcasing core technical competencies.
-- **Projects.jsx:** Featured projects showcase (starting with the *Minimal Design System*).
-- **ScrollToTop.jsx:** Interactive scroll state helper button for smooth navigation.
-- **Footer.jsx:** Copyright and location details.
-
 ## Project Structure
 
 ```text
 ├── index.html
 ├── package.json
 ├── vercel.json
-├── style.css
 └── src/
     ├── App.jsx
     ├── main.jsx
+    ├── style.css
     └── components/
         ├── Navbar.jsx
         ├── Hero.jsx
