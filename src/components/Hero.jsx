@@ -3,7 +3,8 @@ import React from 'react';
 export default function Hero() {
   return (
     <section className="animate-fade" style={{ padding: '80px 0 60px 0' }}>
-      <div style={{ display: 'inline-block', padding: '5px 14px', background: 'rgba(255, 255, 255, 0.03)', border: '1px solid rgba(255, 255, 255, 0.08)', borderRadius: '20px', fontSize: '13px', color: '#a1a1aa', marginBottom: '24px' }}>
+      <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '6px 14px', background: 'rgba(255, 255, 255, 0.03)', border: '1px solid rgba(255, 255, 255, 0.08)', borderRadius: '20px', fontSize: '13px', color: '#a1a1aa', marginBottom: '24px' }}>
+        <span className="status-dot"></span>
         Disponível para Oportunidades & Estágio
       </div>
       <h1 style={{ fontSize: '48px', fontWeight: '600', letterSpacing: '-0.03em', lineHeight: '1.15', marginBottom: '20px', color: '#ffffff' }}>
