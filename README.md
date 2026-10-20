@@ -4,14 +4,14 @@ A minimalist, high-performance personal portfolio and developer showcase built w
 
 ## Overview
 
-This repository contains my personal portfolio website, designed to showcase my projects, professional background, and core technical skills as a front-end developer and computer science student. It features a clean dark interface, smooth navigation, scroll interactions, and a zero-heavy-dependency modular structure.
+This repository contains my personal portfolio website, designed to showcase my projects, professional background, and core technical skills as a front-end developer and computer science student. It features a clean dark interface, smooth navigation, scroll interactions, and is fully configured for production deployment.
 
 ## Stack & Technologies
 
 - **Core:** React, Vite, JavaScript (ES6+)
 - **Styling:** CSS3, Modular Architecture
 - **Version Control:** Git & GitHub
-- **Deployment:** Vercel
+- **Deployment:** Vercel (with custom SPA rewrite rules)
 
 ## Modular Architecture (`src/components/`)
 
@@ -29,6 +29,7 @@ This repository contains my personal portfolio website, designed to showcase my 
 ```text
 ├── index.html
 ├── package.json
+├── vercel.json
 ├── style.css
 └── src/
     ├── App.jsx
