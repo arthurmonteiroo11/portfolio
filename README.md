@@ -1,17 +1,28 @@
 # Arthur Monteiro - Portfolio
 
-A minimalist, high-performance personal portfolio and developer showcase built with React, Vite, and clean modular component architecture.
+A minimalist, high-performance personal portfolio and developer showcase built with React, Vite, and advanced CSS micro-interactions.
 
 ## Overview
 
-This repository contains my personal portfolio website, designed to showcase my projects, professional background, and core technical skills as a front-end developer and computer science student. It features a clean dark interface, smooth navigation, scroll interactions, and is fully configured for production deployment.
+This repository contains my personal portfolio website, designed to showcase my projects, professional background, and core technical skills as a front-end developer and computer science student. It features smooth entry animations, custom CSS glassmorphism card hover effects, fluid transitions, and a clean modular component architecture.
 
 ## Stack & Technologies
 
 - **Core:** React, Vite, JavaScript (ES6+)
-- **Styling:** CSS3, Modular Architecture
+- **Styling & Animations:** Custom CSS3 (Keyframes, Glassmorphism, Hardware-accelerated transitions)
 - **Version Control:** Git & GitHub
-- **Deployment:** Vercel (with custom SPA rewrite rules)
+- **Deployment:** Vercel
+
+## Modular Architecture (`src/components/`)
+
+- **Navbar.jsx:** Header navigation links and external profiles.
+- **Hero.jsx:** Introduction, professional statement, and animated entry triggers.
+- **About.jsx:** Background overview (UNINOVE & computer science studies).
+- **Experience.jsx:** Professional history detailing financial and administrative background.
+- **Skills.jsx:** Interactive grid showcasing core technical competencies with hover states.
+- **Projects.jsx:** Featured projects showcase featuring animated glass-cards.
+- **ScrollToTop.jsx:** Interactive scroll state helper button for smooth navigation.
+- **Footer.jsx:** Copyright and location details.
 
 ## Project Structure
 
