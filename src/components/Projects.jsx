@@ -9,7 +9,7 @@ export default function Projects() {
         <div className="glass-card" style={{ padding: '32px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' }}>
             <h3 style={{ fontSize: '18px', fontWeight: '500', color: '#ffffff' }}>Minimal Design System</h3>
-            <a href="https://github.com/arthurmonteiro11/minimal-design-system" target="_blank" rel="noreferrer" style={{ fontSize: '13px', color: '#a1a1aa', textDecoration: 'underline', transition: 'color 0.2s' }}>Repositório ↗</a>
+            <a href="https://github.com/arthurmonteiroo11/minimal-design-system" target="_blank" rel="noreferrer" style={{ fontSize: '13px', color: '#a1a1aa', textDecoration: 'underline', transition: 'color 0.2s' }}>Repositório ↗</a>
           </div>
           <p style={{ fontSize: '14px', color: '#a1a1aa', lineHeight: '1.6', marginBottom: '24px' }}>
             Biblioteca de componentes em React e Vite construída com foco em design limpo, estados fluidos, estruturação modular com CSS Modules e painéis interativos integrados.
